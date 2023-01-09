@@ -5,12 +5,14 @@ import Coins from './components/Coins';
 import Exchanges from './components/Exchanges';
 import Header from './components/Header';
 import Home from './components/Home';
+import ResponsiveDrawer from './components/ResponsiveDrawer';
 
 
 function App() {
   return (
     <Router>
       <Header></Header>
+      <ResponsiveDrawer></ResponsiveDrawer>
       <Routes>
         <Route path="/" element={<Home></Home>}/>
         <Route path="/coins" element={<Coins></Coins>}/>
