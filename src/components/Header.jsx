@@ -8,6 +8,7 @@ const Header = () => {
     p={'4'}
     shadow={'base'}
     bgColor={'blackAlpha.900'}
+    display = {['none','yes']}
     >
       <Button  variant={'unstyled'} color={'white'}>
         <Link to ="/" >Home</Link>
